@@ -1,0 +1,10 @@
+2024/07/18-16:41:02.154 5a80 Log #3: 2 ops saved to Table #7 OK
+2024/07/18-16:41:02.180 5a80 Archiving C:\Users\mangu\AppData\Local\Temp\flutter_tools.8c7f4f51\flutter_tools_chrome_device.87aa26bb\Default\Site Characteristics Database/000003.log: OK
+2024/07/18-16:41:02.212 5a80 Log #6: 1 ops saved to Table #8 OK
+2024/07/18-16:41:02.214 5a80 Archiving C:\Users\mangu\AppData\Local\Temp\flutter_tools.8c7f4f51\flutter_tools_chrome_device.87aa26bb\Default\Site Characteristics Database/000006.log: OK
+2024/07/18-16:41:02.220 5a80 Table #4: 2 entries OK
+2024/07/18-16:41:02.222 5a80 Table #6: 2 entries OK
+2024/07/18-16:41:02.223 5a80 Table #7: 2 entries OK
+2024/07/18-16:41:02.224 5a80 Table #8: 1 entries OK
+2024/07/18-16:41:02.259 5a80 Archiving C:\Users\mangu\AppData\Local\Temp\flutter_tools.8c7f4f51\flutter_tools_chrome_device.87aa26bb\Default\Site Characteristics Database/MANIFEST-000001: OK
+2024/07/18-16:41:02.284 5a80 **** Repaired leveldb C:\Users\mangu\AppData\Local\Temp\flutter_tools.8c7f4f51\flutter_tools_chrome_device.87aa26bb\Default\Site Characteristics Database; recovered 4 files; 747 bytes. Some data may have been lost. ****

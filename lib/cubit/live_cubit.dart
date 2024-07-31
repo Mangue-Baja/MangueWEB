@@ -2,7 +2,9 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:bloc/bloc.dart';
+import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:mangueweb/modules/application/gateway/http/factory.dart';
 
 part 'live_state.dart';
 
@@ -43,9 +45,10 @@ class LiveCubit extends Cubit<LiveState> {
     Timer.periodic(const Duration(seconds: 1), (timer) async {
       var url = Uri.parse("http://64.227.19.172:1880/data");
       var result = await http.get(url);
+      var data = result.body;
 
       if (result.statusCode == 200) {
-        List<dynamic> jsonResponse = json.decode(result.body);
+        List<dynamic> jsonResponse = json.decode(data);
 
         List<double> timeJson = parseResult(jsonResponse, 'TIMESTAMP');
         List<double> speeds = parseResult(jsonResponse, 'Speed');
